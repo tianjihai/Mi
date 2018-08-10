@@ -127,6 +127,30 @@
   top: 40px;
   width: 100%;
   height: 460px; }
+  .MainMenu .MainMenuRight {
+    width: 236px;
+    height: 100%;
+    position: absolute;
+    z-index: 1111;
+    border: 1px solid orange;
+    background-color: rgba(76, 88, 94, 0.6); }
+    .MainMenu .MainMenuRight ul {
+      list-style: none;
+      position: relative;
+      top: 50%;
+      margin-top: -210px; }
+      .MainMenu .MainMenuRight ul li {
+        color: #ffffff;
+        padding-left: 30px;
+        height: 42px;
+        line-height: 42px; }
+        .MainMenu .MainMenuRight ul li span {
+          float: right;
+          margin-right: 20px; }
+          .MainMenu .MainMenuRight ul li span i {
+            color: #bfc6c8; }
+        .MainMenu .MainMenuRight ul li:hover {
+          background-color: #ff6700; }
   .MainMenu .slider {
     overflow: hidden;
     float: left;
