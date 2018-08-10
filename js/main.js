@@ -43,5 +43,13 @@ $(document).ready(function () {
     });
 
 
+//左侧菜单栏
+    $(".MainMenuRight>ul>li").mouseover(function () {
+        $("#"+$(this).index()).stop().fadeIn(80);
+    });
+
+    $(".MainMenuRight>ul>li").mouseleave(function () {
+        $("#"+$(this).index()).stop().fadeOut(80);
+    });
 
 });

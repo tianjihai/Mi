@@ -77,7 +77,6 @@ $ft:20px;
   height: 100px;
   position: relative;
   top: 40px;
-  border: 1px solid blue;
   .logoMenuLeft{
     width: 60px;
     height: 100px;
@@ -153,7 +152,6 @@ $ft:20px;
 }
 
 .MainMenu{
-  border: 1px solid black;
   position: relative;
   top: 40px;
   width: 100%;
@@ -163,7 +161,6 @@ $ft:20px;
     height: 100%;
     position: absolute;
     z-index: 1111;
-    border: 1px solid orange;
     background-color: rgba(76,88,94,0.6);
     ul{
       list-style: none;
@@ -184,6 +181,18 @@ $ft:20px;
           }
         &:hover{
           background-color: #ff6700;
+        }
+        .MenuCenter{
+          display: none;
+          position: absolute;
+          z-index: 111;
+          left:236px ;
+          top: -18px;
+          width: 988px;
+          height: 458px;
+          background-color: #ffffff;
+          box-shadow: 5px 5px 10px #a9a9a9;
+          color: #000000;
         }
       }
     }
@@ -222,7 +231,7 @@ $ft:20px;
         font-weight: 700;
         font-size: 30px;
         &:hover{
-          background-color: rgba(0, 0, 0, 0.5);
+          background-color: rgba(0, 0, 0, 0.6);
         }
       }
       .arrow-left {
