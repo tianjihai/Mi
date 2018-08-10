@@ -94,6 +94,9 @@
     width: 301px;
     height: 100px;
     float: right; }
+    .logoMenu .logoMenuRight label {
+      height: 100px;
+      float: right; }
     .logoMenu .logoMenuRight .search {
       width: 245px;
       height: 50px;
