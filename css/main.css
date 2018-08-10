@@ -76,16 +76,17 @@
     float: left; }
     .logoMenu .logoMenuCenter ul {
       float: right;
-      margin-right: 90px;
+      margin-right: 70px;
       list-style: none;
       height: 100px;
       line-height: 100px; }
       .logoMenu .logoMenuCenter ul li {
         float: left;
-        width: 58px;
         font-size: 16px;
         text-align: center; }
         .logoMenu .logoMenuCenter ul li a {
+          padding-left: 10px;
+          padding-right: 10px;
           text-decoration: none;
           color: #424242; }
           .logoMenu .logoMenuCenter ul li a:hover {

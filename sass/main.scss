@@ -94,16 +94,19 @@ $ft:20px;
     float: left;
     ul{
       float: right;
-      margin-right: 90px;
+      margin-right: 70px;
       list-style: none;
       height: 100px;
       line-height: 100px;
       li{
         float: left;
-        width: 58px;
         font-size: 16px;
         text-align: center;
         a{
+          padding:{
+            left: 10px;
+            right: 10px;
+          }
           text-decoration: none;
           color: rgba(66,66,66,1);
           &:hover{
