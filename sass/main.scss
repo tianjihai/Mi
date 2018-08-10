@@ -5,7 +5,7 @@
 $ft:20px;
 
 .main{
-  width: 1200px;
+  width: 1226px;
   height: 1200px;
   border: 1px solid red;
   margin: 0 auto;
@@ -17,22 +17,43 @@ $ft:20px;
   position: absolute;
   top: 0;
   left: 0;
-}
-.TopMenuContain{
-  width: 1200px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 12px;
-  margin: 0 auto;
-  border: 1px solid orange;
-  span{
-    a{
-      text-decoration: none;
-      color: rgba(176,176,176,1);
-      padding:{
-        left: 2px;
-        right: 2px;
+  .TopMenuContain{
+    width: 1226px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin: 0 auto;
+    border: 1px solid orange;
+    span{
+      a{
+        text-decoration: none;
+        color: rgba(176,176,176,1);
+        padding:{
+          left: 2px;
+          right: 2px;
+        }
+        &:hover{
+          color: white;
+        }
+      }
+    }
+    .TopMenuRight{
+      float: right;
+      .cart{
+        margin-left: 20px;
+        height: 40px;
+        width: 120px;
+        color: rgba(176,176,176,1);
+        background-color: rgba(66,66,66,1);
+        float: right;
+        text-align: center;
+        font-size: 14px;
+        &:hover{
+          background-color: rgba(255,255,255,1);
+          color: rgba(255,103,0,1);
+        }
       }
     }
   }
 }
+

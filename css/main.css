@@ -3,7 +3,7 @@
   margin: 0; }
 
 .main {
-  width: 1200px;
+  width: 1226px;
   height: 1200px;
   border: 1px solid red;
   margin: 0 auto; }
@@ -15,18 +15,33 @@
   position: absolute;
   top: 0;
   left: 0; }
-
-.TopMenuContain {
-  width: 1200px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 12px;
-  margin: 0 auto;
-  border: 1px solid orange; }
-  .TopMenuContain span a {
-    text-decoration: none;
-    color: #b0b0b0;
-    padding-left: 2px;
-    padding-right: 5px; }
+  .TopMenu .TopMenuContain {
+    width: 1226px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin: 0 auto;
+    border: 1px solid orange; }
+    .TopMenu .TopMenuContain span a {
+      text-decoration: none;
+      color: #b0b0b0;
+      padding-left: 2px;
+      padding-right: 2px; }
+      .TopMenu .TopMenuContain span a:hover {
+        color: white; }
+    .TopMenu .TopMenuContain .TopMenuRight {
+      float: right; }
+      .TopMenu .TopMenuContain .TopMenuRight .cart {
+        margin-left: 20px;
+        height: 40px;
+        width: 120px;
+        color: #b0b0b0;
+        background-color: #424242;
+        float: right;
+        text-align: center;
+        font-size: 14px; }
+        .TopMenu .TopMenuContain .TopMenuRight .cart:hover {
+          background-color: white;
+          color: #ff6700; }
 
 /*# sourceMappingURL=main.css.map */
