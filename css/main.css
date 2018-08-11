@@ -5,7 +5,7 @@
 
 .main {
   width: 1226px;
-  height: 1200px;
+  height: 980px;
   border: 1px solid red;
   margin: 0 auto; }
 
@@ -247,5 +247,52 @@
   .banner img {
     float: left;
     width: 100%; }
+
+.mainContain {
+  border: 1px solid black;
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  background-color: #e2e2e2; }
+  .mainContain .phone {
+    width: 1226px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    background-color: #e2e2e2; }
+    .mainContain .phone .phoneTop {
+      width: 100%;
+      height: 80px;
+      line-height: 90px;
+      font-size: 20px; }
+    .mainContain .phone .phoneContain {
+      height: 615px;
+      width: 100%; }
+      .mainContain .phone .phoneContain .phoneLeft {
+        width: 235px;
+        height: 100%;
+        float: left; }
+        .mainContain .phone .phoneContain .phoneLeft img {
+          width: 100%; }
+      .mainContain .phone .phoneContain .phoneMain {
+        height: 100%;
+        width: 986px;
+        position: relative;
+        top: -10px;
+        float: right; }
+        .mainContain .phone .phoneContain .phoneMain ul {
+          list-style: none; }
+          .mainContain .phone .phoneContain .phoneMain ul li {
+            width: 236px;
+            height: 300px;
+            background-color: #ffffff;
+            float: right;
+            text-align: center;
+            padding-top: 40px;
+            margin-left: 10px;
+            margin-bottom: 14px; }
+            .mainContain .phone .phoneContain .phoneMain ul li img {
+              width: 120px; }
+        .mainContain .phone .phoneContain .phoneMain .phonel1 {
+          margin-bottom: 2px; }
 
 /*# sourceMappingURL=main.css.map */
