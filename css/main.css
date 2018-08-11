@@ -203,15 +203,33 @@
 .TopList {
   width: 100%;
   height: 170px;
-  border: 1px solid green;
   position: relative;
   top: 45px;
   float: left; }
   .TopList .TopListLeft {
     width: 236px;
     height: 170px;
-    border: 1px solid blue;
     float: left; }
+    .TopList .TopListLeft ul {
+      list-style: none; }
+      .TopList .TopListLeft ul li {
+        width: 78px;
+        height: 85px;
+        float: left;
+        text-align: center;
+        background-color: #5f5750;
+        padding-top: 20px;
+        font-weight: 500; }
+        .TopList .TopListLeft ul li a {
+          text-decoration: none;
+          color: #cfcdcb; }
+          .TopList .TopListLeft ul li a:hover {
+            color: white;
+            transition: color 500ms; }
+        .TopList .TopListLeft ul li p {
+          font-size: 13px; }
+        .TopList .TopListLeft ul li img {
+          width: 26px; }
   .TopList .TopListColumn {
     width: 316px;
     height: 170px;

@@ -251,14 +251,38 @@ $ft:20px;
 .TopList{
   width: 100%;
   height: 170px;
-  border: 1px solid green;
   position:  relative;
   top: 45px;float: left;
   .TopListLeft{
     width: 236px;
     height: 170px;
-    border: 1px solid blue;
     float: left;
+    ul{
+      list-style: none;
+      li{
+        width: 78px;
+        height: 85px;
+        float: left;
+        text-align: center;
+        background-color: #5f5750;
+        padding-top: 20px;
+        font-weight: 500;
+        a{
+          text-decoration: none;
+          color:#cfcdcb;
+          &:hover{
+            color: white;
+            transition: color 500ms;
+          }
+        }
+        p{
+          font-size: 13px;
+        }
+        img{
+          width: 26px;
+        }
+      }
+    }
   }
   .TopListColumn{
     width: 316px;
