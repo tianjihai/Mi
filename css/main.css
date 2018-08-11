@@ -200,4 +200,24 @@
     .MainMenu .slider:hover {
       display: block; }
 
+.TopList {
+  width: 100%;
+  height: 170px;
+  border: 1px solid green;
+  position: relative;
+  top: 45px;
+  float: left; }
+  .TopList .TopListLeft {
+    width: 236px;
+    height: 170px;
+    border: 1px solid blue;
+    float: left; }
+  .TopList .TopListColumn {
+    width: 316px;
+    height: 170px;
+    margin-left: 12px;
+    float: right; }
+    .TopList .TopListColumn img {
+      width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
