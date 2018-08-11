@@ -352,15 +352,26 @@ $ft:20px;
             margin-left: 10px;
             margin-bottom: 14px;
             img{
-              width: 120px;
+              width: 140px;
+            }
+            a{
+              text-decoration: none;
             }
             &:hover{
-
+              position: relative;
+              top: -5px;
+              transition: 0.5s;
+              box-shadow: 5px 5px 10px #a9a9a9;
             }
           }
         }
-        .phonel1{
-          margin-bottom: 2px;
+        .Phonetxt1{
+          color: #3c3c3c;
+          margin-top: 20px;
+        }
+        .Phonetxt2{
+          color: #a9a9a9;
+          margin-top: -5px;
         }
       }
     }

@@ -291,8 +291,19 @@
             margin-left: 10px;
             margin-bottom: 14px; }
             .mainContain .phone .phoneContain .phoneMain ul li img {
-              width: 120px; }
-        .mainContain .phone .phoneContain .phoneMain .phonel1 {
-          margin-bottom: 2px; }
+              width: 140px; }
+            .mainContain .phone .phoneContain .phoneMain ul li a {
+              text-decoration: none; }
+            .mainContain .phone .phoneContain .phoneMain ul li:hover {
+              position: relative;
+              top: -5px;
+              transition: 0.5s;
+              box-shadow: 5px 5px 10px #a9a9a9; }
+        .mainContain .phone .phoneContain .phoneMain .Phonetxt1 {
+          color: #3c3c3c;
+          margin-top: 20px; }
+        .mainContain .phone .phoneContain .phoneMain .Phonetxt2 {
+          color: #a9a9a9;
+          margin-top: -5px; }
 
 /*# sourceMappingURL=main.css.map */
