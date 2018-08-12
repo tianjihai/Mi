@@ -298,12 +298,12 @@
               top: -5px;
               transition: 0.5s;
               box-shadow: 5px 5px 10px #a9a9a9; }
-        .mainContain .phone .phoneContain .phoneMain .Phonetxt1 {
-          color: #3c3c3c;
-          margin-top: 20px; }
-        .mainContain .phone .phoneContain .phoneMain .Phonetxt2 {
-          color: #a9a9a9;
-          margin-top: -5px; }
+  .mainContain .Phonetxt1 {
+    color: #3c3c3c;
+    margin-top: 20px; }
+  .mainContain .Phonetxt2 {
+    color: #a9a9a9;
+    margin-top: -5px; }
   .mainContain .jiadian {
     border: 2px solid orange;
     width: 1226px;
@@ -312,7 +312,7 @@
     .mainContain .jiadian .banner2 img {
       width: 100%;
       padding-top: 40px;
-      padding-bottom: 40px; }
+      padding-bottom: 20px; }
     .mainContain .jiadian .jiadianBody {
       border: 1px solid black;
       height: 1000px;
@@ -349,5 +349,48 @@
         width: 983px;
         height: 614px;
         float: right; }
+        .mainContain .jiadian .jiadianBody .jiadianMain ul {
+          list-style: none; }
+          .mainContain .jiadian .jiadianBody .jiadianMain ul li {
+            width: 235px;
+            height: 300px;
+            background-color: #ffffff;
+            float: right;
+            text-align: center;
+            padding-top: 40px;
+            margin-left: 10px;
+            margin-bottom: 14px; }
+            .mainContain .jiadian .jiadianBody .jiadianMain ul li img {
+              width: 140px; }
+            .mainContain .jiadian .jiadianBody .jiadianMain ul li a {
+              text-decoration: none; }
+            .mainContain .jiadian .jiadianBody .jiadianMain ul li:hover {
+              position: relative;
+              top: -5px;
+              transition: 0.5s;
+              box-shadow: 5px 5px 10px #a9a9a9; }
+  .mainContain .EndList {
+    float: right;
+    width: 245px; }
+    .mainContain .EndList h5 {
+      margin-left: -100px;
+      color: #3c3c3c; }
+    .mainContain .EndList h3 {
+      margin-left: -90px;
+      font-size: 20px;
+      color: #3c3c3c; }
+    .mainContain .EndList h4 {
+      margin-left: -140px;
+      font-size: 14px;
+      color: #a9a9a9; }
+    .mainContain .EndList p {
+      margin-left: -120px;
+      color: #ff6700; }
+    .mainContain .EndList div {
+      float: right;
+      margin-top: -100px; }
+      .mainContain .EndList div img {
+        margin-top: 20px;
+        margin-right: 20px; }
 
 /*# sourceMappingURL=main.css.map */

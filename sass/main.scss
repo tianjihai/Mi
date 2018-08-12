@@ -364,16 +364,17 @@ $ft:20px;
             }
           }
         }
-        .Phonetxt1{
-          color: #3c3c3c;
-          margin-top: 20px;
-        }
-        .Phonetxt2{
-          color: #a9a9a9;
-          margin-top: -5px;
-        }
+
       }
     }
+  }
+  .Phonetxt1{
+    color: #3c3c3c;
+    margin-top: 20px;
+  }
+  .Phonetxt2{
+    color: #a9a9a9;
+    margin-top: -5px;
   }
   .jiadian{
     border: 2px solid orange;
@@ -385,7 +386,7 @@ $ft:20px;
         width: 100%;
         padding: {
           top: 40px;
-          bottom: 40px;
+          bottom: 20px;
         }
       }
     }
@@ -436,7 +437,69 @@ $ft:20px;
         width: 983px;
         height: 614px;
         float: right;
+        ul{
+          list-style: none;
+          li{
+            width: 235px;
+            height: 300px;
+            background-color: #ffffff;
+            float: right;
+            text-align: center;
+            padding-top: 40px;
+            margin-left: 10px;
+            margin-bottom: 14px;
+            img{
+              width: 140px;
+            }
+            a{
+              text-decoration: none;
+            }
+            &:hover{
+              position: relative;
+              top: -5px;
+              transition: 0.5s;
+              box-shadow: 5px 5px 10px #a9a9a9;
+            }
+          }
+        }
       }
     }
   }
+.EndList{
+  float: right;width: 245px;
+
+    h5{
+      margin-left: -100px;
+      color: #3c3c3c;
+    }
+    h3{
+      margin:{
+        left: -90px;
+      }
+      font-size: 20px;
+      color: #3c3c3c;
+    }
+    h4{
+      margin-left: -140px;
+      font-size: 14px;
+      color: #a9a9a9;
+    }
+    p{
+      margin-left: -120px;
+      color: #ff6700;
+    }
+    div{
+      float: right;
+      margin-top: -100px;
+      img{
+        margin:{
+          top: 20px;
+          right: 20px;
+        }
+      }
+    }
+
+  }
+
+
 }
