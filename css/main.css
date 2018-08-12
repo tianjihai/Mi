@@ -404,5 +404,7 @@
     background-color: #ff6700;
     position: relative;
     margin-top: -60px; }
+    .mainContain .hiddenDiv p {
+      color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

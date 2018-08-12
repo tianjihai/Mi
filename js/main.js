@@ -54,12 +54,11 @@ $(document).ready(function () {
 
 
     $(".jiadianMain>ul>li").mouseover(function () {
-        alert($(this).index())
-        $(".hiddenDiv").slideDown(80);
+        $("#1"+$(this).index()).stop().slideDown(80);
     });
 
     $(".jiadianMain>ul>li").mouseleave(function () {
-        $(".hiddenDiv").slideUp(80);
+        $("#1"+$(this).index()).stop().slideUp(80);
     });
 
 
