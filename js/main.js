@@ -53,6 +53,15 @@ $(document).ready(function () {
     });
 
 
+    $(".jiadianMain>ul>li").mouseover(function () {
+        alert($(this).index())
+        $(".hiddenDiv").slideDown(80);
+    });
+
+    $(".jiadianMain>ul>li").mouseleave(function () {
+        $(".hiddenDiv").slideUp(80);
+    });
+
 
     $("#jd11").mouseover(function () {
         $("#jd1").show();

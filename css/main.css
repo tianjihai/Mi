@@ -397,5 +397,12 @@
     color: #ff6700;
     margin-top: 30px;
     margin-right: 50px; }
+  .mainContain .hiddenDiv {
+    display: none;
+    width: 100%;
+    height: 75px;
+    background-color: #ff6700;
+    position: relative;
+    margin-top: -60px; }
 
 /*# sourceMappingURL=main.css.map */
