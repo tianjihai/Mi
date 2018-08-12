@@ -251,7 +251,6 @@
 .mainContain {
   border: 1px solid black;
   width: 100%;
-  height: 1000px;
   position: absolute;
   background-color: #e2e2e2; }
   .mainContain .phone {
@@ -305,5 +304,50 @@
         .mainContain .phone .phoneContain .phoneMain .Phonetxt2 {
           color: #a9a9a9;
           margin-top: -5px; }
+  .mainContain .jiadian {
+    border: 2px solid orange;
+    width: 1226px;
+    margin: 0 auto;
+    background-color: #e2e2e2; }
+    .mainContain .jiadian .banner2 img {
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 40px; }
+    .mainContain .jiadian .jiadianBody {
+      border: 1px solid black;
+      height: 1000px;
+      width: 100%; }
+      .mainContain .jiadian .jiadianBody .jiadianTop {
+        border: 1px solid red;
+        height: 60px;
+        line-height: 60px; }
+        .mainContain .jiadian .jiadianBody .jiadianTop .TopTxt1 {
+          font-size: 20px; }
+        .mainContain .jiadian .jiadianBody .jiadianTop .TopTxt2 {
+          float: right;
+          font-size: 18px; }
+          .mainContain .jiadian .jiadianBody .jiadianTop .TopTxt2 span {
+            padding-left: 26px; }
+            .mainContain .jiadian .jiadianBody .jiadianTop .TopTxt2 span a {
+              text-decoration: none;
+              color: #3c3c3c;
+              padding-bottom: 5px; }
+              .mainContain .jiadian .jiadianBody .jiadianTop .TopTxt2 span a:hover {
+                color: #ff6700;
+                border-bottom: 2px solid #ff6700; }
+      .mainContain .jiadian .jiadianBody .jiadianLeft {
+        width: 235px;
+        height: 614px;
+        float: left; }
+        .mainContain .jiadian .jiadianBody .jiadianLeft .jiadianLeftimg {
+          height: 300px;
+          width: 100%; }
+          .mainContain .jiadian .jiadianBody .jiadianLeft .jiadianLeftimg img {
+            width: 100%; }
+      .mainContain .jiadian .jiadianBody .jiadianMain {
+        border: 1px solid black;
+        width: 983px;
+        height: 614px;
+        float: right; }
 
 /*# sourceMappingURL=main.css.map */

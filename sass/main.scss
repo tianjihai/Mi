@@ -309,7 +309,6 @@ $ft:20px;
 .mainContain{
   border: 1px solid black;
   width: 100%;
-  height: 1000px;
   position: absolute;
   background-color: #e2e2e2;
   .phone{
@@ -373,6 +372,70 @@ $ft:20px;
           color: #a9a9a9;
           margin-top: -5px;
         }
+      }
+    }
+  }
+  .jiadian{
+    border: 2px solid orange;
+    width: 1226px;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    .banner2{
+      img{
+        width: 100%;
+        padding: {
+          top: 40px;
+          bottom: 40px;
+        }
+      }
+    }
+    .jiadianBody{
+      border: 1px solid black;
+      height: 1000px;
+      width: 100%;
+      .jiadianTop{
+        border: 1px solid red;
+        height: 60px;
+        line-height: 60px;
+        .TopTxt1{
+          font-size: 20px;
+        }
+        .TopTxt2{
+          float: right;
+          font-size: 18px;
+          span{
+            padding: {
+              left: 26px;
+            }
+            a{
+              text-decoration: none;
+              color: #3c3c3c;
+              padding-bottom: 5px;
+              &:hover{
+                color: #ff6700;
+                border-bottom: 2px solid #ff6700;
+              }
+            }
+          }
+        }
+      }
+      .jiadianLeft{
+        width: 235px;
+        height: 614px;
+        float: left;
+        .jiadianLeftimg{
+          height: 300px;
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+      }
+      .jiadianMain{
+        border: 1px solid black;
+        width: 983px;
+        height: 614px;
+        float: right;
       }
     }
   }
