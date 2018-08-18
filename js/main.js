@@ -112,4 +112,31 @@ $(document).ready(function () {
         $("#jd1").hide();
     });
 
+
+    //智能模块
+    $("#jd111").mouseover(function () {
+        $("#jd01").show();
+        $("#jd02").hide();
+        $("#jd03").hide();
+        $("#jd04").hide();
+    });
+    $("#jd222").mouseover(function () {
+        $("#jd02").show();
+        $("#jd01").hide();
+        $("#jd03").hide();
+        $("#jd04").hide();
+    });
+    $("#jd333").mouseover(function () {
+        $("#jd03").show();
+        $("#jd02").hide();
+        $("#jd01").hide();
+        $("#jd04").hide();
+    });
+    $("#jd444").mouseover(function () {
+        $("#jd04").show();
+        $("#jd02").hide();
+        $("#jd03").hide();
+        $("#jd01").hide();
+    });
+
 });

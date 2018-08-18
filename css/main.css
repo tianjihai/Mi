@@ -249,13 +249,11 @@
     width: 100%; }
 
 .mainContain {
-  border: 1px solid black;
   width: 100%;
   position: absolute;
   background-color: #e2e2e2; }
   .mainContain .phone {
     width: 1226px;
-    border: 1px solid blue;
     margin: 0 auto;
     background-color: #e2e2e2; }
     .mainContain .phone .phoneTop {
@@ -305,7 +303,7 @@
     color: #a9a9a9;
     margin-top: -5px; }
   .mainContain .jiadian {
-    border: 2px solid orange;
+    border: 1px solid red;
     width: 1226px;
     margin: 0 auto;
     background-color: #e2e2e2; }
@@ -314,11 +312,9 @@
       padding-top: 40px;
       padding-bottom: 20px; }
     .mainContain .jiadian .jiadianBody {
-      border: 1px solid black;
-      height: 1000px;
+      height: 700px;
       width: 100%; }
       .mainContain .jiadian .jiadianBody .jiadianTop {
-        border: 1px solid red;
         height: 60px;
         line-height: 60px; }
         .mainContain .jiadian .jiadianBody .jiadianTop .TopTxt1 {
@@ -345,7 +341,6 @@
           .mainContain .jiadian .jiadianBody .jiadianLeft .jiadianLeftimg img {
             width: 100%; }
       .mainContain .jiadian .jiadianBody .jiadianMain {
-        border: 1px solid black;
         width: 983px;
         height: 614px;
         float: right; }
@@ -392,6 +387,11 @@
       .mainContain .EndList div img {
         margin-top: 20px;
         margin-right: 20px; }
+  .mainContain .banner3 {
+    padding-top: 22px;
+    padding-bottom: 30px; }
+    .mainContain .banner3 img {
+      width: 100%; }
   .mainContain .icon1 {
     font-size: 60px;
     color: #ff6700;

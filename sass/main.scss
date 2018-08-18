@@ -307,13 +307,11 @@ $ft:20px;
 }
 
 .mainContain{
-  border: 1px solid black;
   width: 100%;
   position: absolute;
   background-color: #e2e2e2;
   .phone{
     width: 1226px;
-    border: 1px solid blue;
     margin: 0 auto;
     background-color: #e2e2e2;
     .phoneTop{
@@ -377,7 +375,7 @@ $ft:20px;
     margin-top: -5px;
   }
   .jiadian{
-    border: 2px solid orange;
+    border: 1px solid red;
     width: 1226px;
     margin: 0 auto;
     background-color: #e2e2e2;
@@ -391,11 +389,9 @@ $ft:20px;
       }
     }
     .jiadianBody{
-      border: 1px solid black;
-      height: 1000px;
+      height: 700px;
       width: 100%;
       .jiadianTop{
-        border: 1px solid red;
         height: 60px;
         line-height: 60px;
         .TopTxt1{
@@ -433,7 +429,6 @@ $ft:20px;
         }
       }
       .jiadianMain{
-        border: 1px solid black;
         width: 983px;
         height: 614px;
         float: right;
@@ -499,6 +494,16 @@ $ft:20px;
       }
     }
 
+  }
+
+  .banner3{
+    padding:{
+      top: 22px;
+      bottom: 30px;
+    }
+    img{
+      width: 100%;
+    }
   }
 
 .icon1{
