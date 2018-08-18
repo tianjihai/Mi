@@ -7,7 +7,6 @@ $ft:20px;
 .main{
   width: 1226px;
   height: 980px;
-  border: 1px solid red;
   margin: 0 auto;
 }
 .TopMenu{
@@ -375,7 +374,6 @@ $ft:20px;
     margin-top: -5px;
   }
   .jiadian{
-    border: 1px solid red;
     width: 1226px;
     margin: 0 auto;
     background-color: #e2e2e2;
@@ -452,7 +450,7 @@ $ft:20px;
             &:hover{
               position: relative;
               top: -5px;
-              transition: 0.5s;
+              transition: 0.3s;
               box-shadow: 5px 5px 10px #a9a9a9;
             }
           }

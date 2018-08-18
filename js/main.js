@@ -53,6 +53,7 @@ $(document).ready(function () {
     });
 
 
+    //家电模块
     $(".jiadianMain>ul>li").mouseover(function () {
         $("#1"+$(this).index()).stop().slideDown(80);
     });
@@ -60,7 +61,6 @@ $(document).ready(function () {
     $(".jiadianMain>ul>li").mouseleave(function () {
         $("#1"+$(this).index()).stop().slideUp(80);
     });
-
 
     $("#jd2>ul>li").mouseover(function () {
         $("#2"+$(this).index()).stop().slideDown(80);
@@ -86,7 +86,40 @@ $(document).ready(function () {
         $("#4"+$(this).index()).stop().slideUp(80);
     });
 
+    //智能模块 悬浮信息
+    $("#jd01>ul>li").mouseover(function () {
+        $("#11"+$(this).index()).stop().slideDown(80);
+    });
 
+    $("#jd01>ul>li").mouseleave(function () {
+        $("#11"+$(this).index()).stop().slideUp(80);
+    });
+    $("#jd02>ul>li").mouseover(function () {
+        $("#22"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd02>ul>li").mouseleave(function () {
+        $("#22"+$(this).index()).stop().slideUp(80);
+    });
+
+    $("#jd03>ul>li").mouseover(function () {
+        $("#33"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd03>ul>li").mouseleave(function () {
+        $("#33"+$(this).index()).stop().slideUp(80);
+    });
+
+    $("#jd04>ul>li").mouseover(function () {
+        $("#44"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd04>ul>li").mouseleave(function () {
+        $("#44"+$(this).index()).stop().slideUp(80);
+    });
+
+
+    //家电模块菜单
     $("#jd11").mouseover(function () {
         $("#jd1").show();
         $("#jd2").hide();
