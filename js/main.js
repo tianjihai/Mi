@@ -62,6 +62,15 @@ $(document).ready(function () {
     });
 
 
+    $("#jd2>ul>li").mouseover(function () {
+        $("#2"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd2>ul>li").mouseleave(function () {
+        $("#2"+$(this).index()).stop().slideUp(80);
+    });
+
+
     $("#jd11").mouseover(function () {
         $("#jd1").show();
         $("#jd2").hide();
