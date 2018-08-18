@@ -78,6 +78,14 @@ $(document).ready(function () {
         $("#3"+$(this).index()).stop().slideUp(80);
     });
 
+    $("#jd4>ul>li").mouseover(function () {
+        $("#4"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd4>ul>li").mouseleave(function () {
+        $("#4"+$(this).index()).stop().slideUp(80);
+    });
+
 
     $("#jd11").mouseover(function () {
         $("#jd1").show();
