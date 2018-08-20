@@ -385,10 +385,10 @@
       .mainContain .EndList div img {
         margin-top: 20px;
         margin-right: 20px; }
-  .mainContain .banner3 {
+  .mainContain .banner3, .mainContain .banner4 {
     padding-top: 22px;
     padding-bottom: 30px; }
-    .mainContain .banner3 img {
+    .mainContain .banner3 img, .mainContain .banner4 img {
       width: 100%; }
   .mainContain .icon1 {
     font-size: 60px;

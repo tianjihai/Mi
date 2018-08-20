@@ -118,6 +118,39 @@ $(document).ready(function () {
         $("#44"+$(this).index()).stop().slideUp(80);
     });
 
+    //搭配模块 悬浮信息
+    $("#jd001>ul>li").mouseover(function () {
+        $("#111"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd001>ul>li").mouseleave(function () {
+        $("#111"+$(this).index()).stop().slideUp(80);
+    });
+    $("#jd002>ul>li").mouseover(function () {
+        $("#222"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd002>ul>li").mouseleave(function () {
+        $("#222"+$(this).index()).stop().slideUp(80);
+    });
+
+    $("#jd003>ul>li").mouseover(function () {
+        $("#333"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd003>ul>li").mouseleave(function () {
+        $("#333"+$(this).index()).stop().slideUp(80);
+    });
+
+    $("#jd004>ul>li").mouseover(function () {
+        $("#444"+$(this).index()).stop().slideDown(80);
+    });
+
+    $("#jd004>ul>li").mouseleave(function () {
+        $("#444"+$(this).index()).stop().slideUp(80);
+    });
+
+
 
     //家电模块菜单
     $("#jd11").mouseover(function () {
@@ -146,7 +179,7 @@ $(document).ready(function () {
     });
 
 
-    //智能模块
+    //智能模块菜单
     $("#jd111").mouseover(function () {
         $("#jd01").show();
         $("#jd02").hide();
@@ -170,6 +203,32 @@ $(document).ready(function () {
         $("#jd02").hide();
         $("#jd03").hide();
         $("#jd01").hide();
+    });
+
+    //搭配模块菜单
+    $("#jd1111").mouseover(function () {
+        $("#jd001").show();
+        $("#jd002").hide();
+        $("#jd003").hide();
+        $("#jd004").hide();
+    });
+    $("#jd2222").mouseover(function () {
+        $("#jd002").show();
+        $("#jd001").hide();
+        $("#jd003").hide();
+        $("#jd004").hide();
+    });
+    $("#jd3333").mouseover(function () {
+        $("#jd003").show();
+        $("#jd002").hide();
+        $("#jd001").hide();
+        $("#jd004").hide();
+    });
+    $("#jd4444").mouseover(function () {
+        $("#jd004").show();
+        $("#jd002").hide();
+        $("#jd003").hide();
+        $("#jd001").hide();
     });
 
 });
