@@ -483,7 +483,6 @@
       color: #ffffff; }
 
 .bottom {
-  border: 1px solid black;
   background-color: #ffffff;
   overflow: hidden; }
   .bottom .baoxiu {
@@ -513,12 +512,10 @@
       padding: 0;
       color: #e0e0e0; }
   .bottom .bottomMenu {
-    border: 1px solid black;
     margin: 0 auto;
     width: 1226px;
     height: 200px; }
     .bottom .bottomMenu .btm1 {
-      border: 1px solid red;
       float: left;
       width: 973px;
       height: 100%; }
@@ -538,9 +535,31 @@
               .bottom .bottomMenu .btm1 div ul li a:hover {
                 color: #ff6700; }
     .bottom .bottomMenu .btm2 {
-      border: 1px solid red;
       float: right;
       width: 250px;
       height: 100%; }
+      .bottom .bottomMenu .btm2 .btmRight {
+        border-left: 1px solid #cfcdcb;
+        margin-top: 42px;
+        text-align: center; }
+        .bottom .bottomMenu .btm2 .btmRight .btmTxt1 {
+          font-size: 23px;
+          color: #ff6700; }
+        .bottom .bottomMenu .btm2 .btmRight .btmTxt2 {
+          color: #5e5e5e;
+          margin-top: -8px;
+          font-size: 12px; }
+        .bottom .bottomMenu .btm2 .btmRight a {
+          color: #ff6700;
+          text-decoration: none; }
+          .bottom .bottomMenu .btm2 .btmRight a .btmButton {
+            border: 1px solid #ff6700;
+            width: 120px;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 auto; }
+            .bottom .bottomMenu .btm2 .btmRight a .btmButton:hover {
+              background-color: #ff6700;
+              color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */

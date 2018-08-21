@@ -636,8 +636,7 @@ $ft:20px;
     }
   }
 }
-.bottom{
-  border: 1px solid black;
+.bottom{ 
   background-color: #ffffff;
   overflow: hidden;
   .baoxiu{
@@ -674,16 +673,14 @@ $ft:20px;
     }
   }
   .bottomMenu{
-    border: 1px solid black;
     margin: 0 auto;
     width: 1226px;
     height: 200px;
     .btm1{
-      border: 1px solid red;
       float: left;
       width: 973px;
       height: 100%;
-      div{ 
+      div{
         height: 100%;
         width: 20%;
         float: left;
@@ -706,10 +703,40 @@ $ft:20px;
       }
     }
     .btm2{
-      border: 1px solid red;
       float: right;
       width: 250px;
       height: 100%;
+      .btmRight{
+        border-left: 1px solid #cfcdcb;
+        margin-top: 42px;
+        text-align: center;
+        .btmTxt1{
+          font-size: 23px;
+          color: #ff6700;
+        }
+        .btmTxt2{
+          color: #5e5e5e;
+          margin-top: -8px;
+          font-size: 12px;
+        }
+        a{
+          color: #ff6700;
+          text-decoration: none;
+          .btmButton{
+            border: 1px solid #ff6700;
+            width: 120px;
+            height: 30px;
+            line-height: 30px ;
+            margin: 0 auto;
+            &:hover{
+              background-color: #ff6700;
+              color: #ffffff;
+            }
+          }
+
+        }
+
+      }
     }
   }
 }
