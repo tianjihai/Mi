@@ -409,7 +409,6 @@
     width: 1226px;
     margin: 0 auto;
     background-color: #e2e2e2;
-    border: 1px solid red;
     overflow: hidden;
     padding-bottom: 40px; }
     .mainContain .tuijian .banner5 img {
@@ -417,13 +416,11 @@
       padding-top: 40px;
       padding-bottom: 20px; }
     .mainContain .tuijian .tuijianTop {
-      border: 1px solid black;
       margin-top: 15px;
       margin-bottom: 15px;
       font-size: 20px; }
     .mainContain .tuijian .tuijianBody {
-      border: 1px solid red;
-      float: right; }
+      float: left; }
       .mainContain .tuijian .tuijianBody ul {
         list-style: none; }
         .mainContain .tuijian .tuijianBody ul li {
@@ -433,8 +430,7 @@
           float: right;
           text-align: center;
           padding-top: 40px;
-          margin-left: 7px;
-          margin-right: 7px;
+          margin-right: 14px;
           margin-bottom: 14px; }
           .mainContain .tuijian .tuijianBody ul li img {
             width: 140px; }
@@ -446,14 +442,12 @@
             transition: 0.3s;
             box-shadow: 5px 5px 10px #a9a9a9; }
     .mainContain .tuijian .repingTop {
-      border: 2px solid black;
       font-size: 20px;
       float: left;
       width: 100%;
       margin-top: 15px;
       margin-bottom: 15px; }
     .mainContain .tuijian .repingBody {
-      border: 1px solid red;
       float: left; }
       .mainContain .tuijian .repingBody ul {
         list-style: none; }
@@ -463,8 +457,7 @@
           background-color: #ffffff;
           float: right;
           text-align: center;
-          margin-left: 7px;
-          margin-right: 7px; }
+          margin-right: 15px; }
           .mainContain .tuijian .repingBody ul li img {
             width: 100%; }
           .mainContain .tuijian .repingBody ul li a {
@@ -494,7 +487,7 @@
   background-color: #ffffff;
   overflow: hidden; }
   .bottom .baoxiu {
-    border: 2px solid red;
+    border-bottom: 1px solid #e0e0e0;
     margin: 0 auto;
     width: 1226px;
     height: 80px;
@@ -519,5 +512,11 @@
       font-size: 20px;
       padding: 0;
       color: #e0e0e0; }
+  .bottom .bottomMenu {
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+    width: 1226px;
+    height: 200px;
+    padding-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */

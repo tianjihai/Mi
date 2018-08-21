@@ -528,7 +528,6 @@ $ft:20px;
     width: 1226px;
     margin: 0 auto;
     background-color: #e2e2e2;
-    border: 1px solid red;
     overflow: hidden;
     padding-bottom: 40px;
     .banner5{
@@ -541,7 +540,6 @@ $ft:20px;
       }
     }
     .tuijianTop{
-      border: 1px solid black;
       margin:{
         top: 15px;
         bottom: 15px;
@@ -549,8 +547,7 @@ $ft:20px;
       font-size: 20px;
     }
     .tuijianBody{
-      border: 1px solid red;
-      float: right;
+      float: left;
       ul{
         list-style: none;
         li{
@@ -561,8 +558,7 @@ $ft:20px;
           text-align: center;
           padding-top: 40px;
           margin: {
-            left: 7px;
-            right: 7px;
+            right: 14px;
             bottom: 14px;
           };
           img{
@@ -581,7 +577,6 @@ $ft:20px;
       }
     }
     .repingTop{
-      border: 2px solid black;
       font-size: 20px;
       float: left;
       width: 100%;
@@ -591,7 +586,6 @@ $ft:20px;
       };
     }
     .repingBody{
-      border: 1px solid red;
       float: left;
       ul{
         list-style: none;
@@ -602,8 +596,7 @@ $ft:20px;
           float: right;
           text-align: center;
           margin: {
-            left: 7px;
-            right: 7px;
+            right:15px;
           };
           img{
             width: 100%;
@@ -648,10 +641,11 @@ $ft:20px;
   background-color: #ffffff;
   overflow: hidden;
   .baoxiu{
-    border: 2px solid red;
+    border-bottom: 1px solid #e0e0e0;
     margin: 0 auto;
     width: 1226px;
-    height: 80px; overflow: hidden;
+    height: 80px;
+    overflow: hidden;
     span{
       float: left;
       text-align: center;
@@ -678,5 +672,12 @@ $ft:20px;
       padding: 0;
       color: #e0e0e0;
     }
+  }
+  .bottomMenu{
+    border-bottom: 1px solid #e0e0e0;
+    margin: 0 auto;
+    width: 1226px;
+    height: 200px;
+    padding-top: 20px;
   }
 }
