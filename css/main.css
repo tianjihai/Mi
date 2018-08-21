@@ -301,6 +301,21 @@
   .mainContain .Phonetxt2 {
     color: #a9a9a9;
     margin-top: -5px; }
+  .mainContain .Repingtxt1 {
+    color: #3c3c3c;
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    text-align: left; }
+  .mainContain .Repingtxt2 {
+    color: #a9a9a9;
+    text-align: left;
+    padding-left: 24px; }
+  .mainContain .Repingtxt3 {
+    padding-left: 24px;
+    text-align: left; }
   .mainContain .jiadian {
     width: 1226px;
     margin: 0 auto;
@@ -390,6 +405,75 @@
     padding-bottom: 30px; }
     .mainContain .banner3 img, .mainContain .banner4 img {
       width: 100%; }
+  .mainContain .tuijian {
+    width: 1226px;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+    border: 1px solid red;
+    overflow: hidden;
+    padding-bottom: 40px; }
+    .mainContain .tuijian .banner5 img {
+      width: 100%;
+      padding-top: 40px;
+      padding-bottom: 20px; }
+    .mainContain .tuijian .tuijianTop {
+      border: 1px solid black;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 20px; }
+    .mainContain .tuijian .tuijianBody {
+      border: 1px solid red;
+      float: right; }
+      .mainContain .tuijian .tuijianBody ul {
+        list-style: none; }
+        .mainContain .tuijian .tuijianBody ul li {
+          width: 230px;
+          height: 300px;
+          background-color: #ffffff;
+          float: right;
+          text-align: center;
+          padding-top: 40px;
+          margin-left: 7px;
+          margin-right: 7px;
+          margin-bottom: 14px; }
+          .mainContain .tuijian .tuijianBody ul li img {
+            width: 140px; }
+          .mainContain .tuijian .tuijianBody ul li a {
+            text-decoration: none; }
+          .mainContain .tuijian .tuijianBody ul li:hover {
+            position: relative;
+            top: -5px;
+            transition: 0.3s;
+            box-shadow: 5px 5px 10px #a9a9a9; }
+    .mainContain .tuijian .repingTop {
+      border: 2px solid black;
+      font-size: 20px;
+      float: left;
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    .mainContain .tuijian .repingBody {
+      border: 1px solid red;
+      float: left; }
+      .mainContain .tuijian .repingBody ul {
+        list-style: none; }
+        .mainContain .tuijian .repingBody ul li {
+          width: 290px;
+          height: 416px;
+          background-color: #ffffff;
+          float: right;
+          text-align: center;
+          margin-left: 7px;
+          margin-right: 7px; }
+          .mainContain .tuijian .repingBody ul li img {
+            width: 100%; }
+          .mainContain .tuijian .repingBody ul li a {
+            text-decoration: none; }
+          .mainContain .tuijian .repingBody ul li:hover {
+            position: relative;
+            top: -5px;
+            transition: 0.3s;
+            box-shadow: 5px 5px 10px #a9a9a9; }
   .mainContain .icon1 {
     font-size: 60px;
     color: #ff6700;
