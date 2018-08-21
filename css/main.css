@@ -562,4 +562,12 @@
               background-color: #ff6700;
               color: #ffffff; }
 
+.bottomLogo {
+  margin: 0 auto;
+  width: 1226px;
+  height: 80px; }
+  .bottomLogo div {
+    float: left;
+    margin-top: 10px; }
+
 /*# sourceMappingURL=main.css.map */
