@@ -674,10 +674,42 @@ $ft:20px;
     }
   }
   .bottomMenu{
-    border-bottom: 1px solid #e0e0e0;
+    border: 1px solid black;
     margin: 0 auto;
     width: 1226px;
     height: 200px;
-    padding-top: 20px;
+    .btm1{
+      border: 1px solid red;
+      float: left;
+      width: 973px;
+      height: 100%;
+      div{ 
+        height: 100%;
+        width: 20%;
+        float: left;
+        ul{
+          margin-top: 46px;
+          li{
+            list-style: none;
+
+            font-size: 12px;
+            height: 24px;
+            a{
+              color: #5e5e5e;
+              text-decoration: none;
+              &:hover{
+                color: #ff6700;
+              }
+            }
+          }
+        }
+      }
+    }
+    .btm2{
+      border: 1px solid red;
+      float: right;
+      width: 250px;
+      height: 100%;
+    }
   }
 }

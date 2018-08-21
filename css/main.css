@@ -513,10 +513,34 @@
       padding: 0;
       color: #e0e0e0; }
   .bottom .bottomMenu {
-    border-bottom: 1px solid #e0e0e0;
+    border: 1px solid black;
     margin: 0 auto;
     width: 1226px;
-    height: 200px;
-    padding-top: 20px; }
+    height: 200px; }
+    .bottom .bottomMenu .btm1 {
+      border: 1px solid red;
+      float: left;
+      width: 973px;
+      height: 100%; }
+      .bottom .bottomMenu .btm1 div {
+        height: 100%;
+        width: 20%;
+        float: left; }
+        .bottom .bottomMenu .btm1 div ul {
+          margin-top: 46px; }
+          .bottom .bottomMenu .btm1 div ul li {
+            list-style: none;
+            font-size: 12px;
+            height: 24px; }
+            .bottom .bottomMenu .btm1 div ul li a {
+              color: #5e5e5e;
+              text-decoration: none; }
+              .bottom .bottomMenu .btm1 div ul li a:hover {
+                color: #ff6700; }
+    .bottom .bottomMenu .btm2 {
+      border: 1px solid red;
+      float: right;
+      width: 250px;
+      height: 100%; }
 
 /*# sourceMappingURL=main.css.map */
