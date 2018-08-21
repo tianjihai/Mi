@@ -491,11 +491,33 @@
 
 .bottom {
   border: 1px solid black;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  overflow: hidden; }
   .bottom .baoxiu {
-    border: 1px solid black;
+    border: 2px solid red;
     margin: 0 auto;
     width: 1226px;
-    height: 80px; }
+    height: 80px;
+    overflow: hidden; }
+    .bottom .baoxiu span {
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      position: relative;
+      top: 50%;
+      margin-top: -14px; }
+      .bottom .baoxiu span a {
+        text-decoration: none;
+        color: #5e5e5e; }
+        .bottom .baoxiu span a:hover {
+          color: #ff6700; }
+    .bottom .baoxiu .sp1 {
+      width: 239px; }
+      .bottom .baoxiu .sp1 img {
+        width: 30px; }
+    .bottom .baoxiu .sp2 {
+      font-size: 20px;
+      padding: 0;
+      color: #e0e0e0; }
 
 /*# sourceMappingURL=main.css.map */

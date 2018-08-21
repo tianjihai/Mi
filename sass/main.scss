@@ -646,10 +646,37 @@ $ft:20px;
 .bottom{
   border: 1px solid black;
   background-color: #ffffff;
+  overflow: hidden;
   .baoxiu{
-    border: 1px solid black;
+    border: 2px solid red;
     margin: 0 auto;
     width: 1226px;
-    height: 80px;
+    height: 80px; overflow: hidden;
+    span{
+      float: left;
+      text-align: center;
+      font-size:16px;
+      position: relative;
+      top: 50%;
+      margin-top: -14px;
+      a{
+        text-decoration: none;
+        color: #5e5e5e;
+        &:hover{
+          color: #ff6700;
+        }
+      }
+    }
+    .sp1{
+      width: 239px;
+      img{
+        width: 30px;
+      }
+    }
+    .sp2{
+      font-size: 20px;
+      padding: 0;
+      color: #e0e0e0;
+    }
   }
 }
