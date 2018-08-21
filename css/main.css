@@ -489,4 +489,13 @@
     .mainContain .hiddenDiv p {
       color: #ffffff; }
 
+.bottom {
+  border: 1px solid black;
+  background-color: #ffffff; }
+  .bottom .baoxiu {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 1226px;
+    height: 80px; }
+
 /*# sourceMappingURL=main.css.map */
