@@ -254,7 +254,8 @@ $mcr:#ff6700;
   width: 100%;
   height: 170px;
   position:  relative;
-  top: 45px;float: left;
+  top: 45px;
+  float: left;
   .TopListLeft{
     width: 236px;
     height: 170px;
@@ -482,7 +483,8 @@ $mcr:#ff6700;
     }
   }
 .EndList{
-  float: right;width: 245px;
+  float: right;
+  width: 245px;
 
     h5{
       margin-left: -100px;
@@ -691,7 +693,6 @@ $mcr:#ff6700;
           margin-top: 46px;
           li{
             list-style: none;
-
             font-size: 12px;
             height: 24px;
             a{
