@@ -3,23 +3,26 @@
   margin: 0;
 }
 $ft:20px;
+$mwd:1226px;
+$hgt:20px;
+$mcr:#ff6700;
 
 .main{
-  width: 1226px;
+  width: $mwd;
   height: 980px;
   margin: 0 auto;
 }
 .TopMenu{
-  height: 40px;
+  height: $hgt*2;
   width: 100%;
   background-color: rgba(51,51,51,1);
   position: absolute;
   top: 0;
   left: 0;
   .TopMenuContain{
-    width: 1226px;
-    height: 40px;
-    line-height: 40px;
+    width: $mwd;
+    height: $hgt*2;
+    line-height: $hgt*2;
     font-size: 12px;
     margin: 0 auto;
     span{
@@ -38,8 +41,8 @@ $ft:20px;
     .TopMenuRight{
       float: right;
       .cart{
-        margin-left: 20px;
-        height: 40px;
+        margin-left: $hgt;
+        height: $hgt*2;
         width: 120px;
         color: rgba(176,176,176,1);
         background-color: rgba(66,66,66,1);
@@ -48,10 +51,10 @@ $ft:20px;
         font-size: 14px;
         &:hover{
           background-color: rgba(255,255,255,1);
-          color: rgba(255,103,0,1);
+          color: $mcr;
         }
         img{
-          width: 20px;
+          width: $hgt;
         }
         .cartMain{
           display: none;
@@ -75,10 +78,10 @@ $ft:20px;
   width: 100%;
   height: 100px;
   position: relative;
-  top: 40px;
+  top: $hgt*2;
   .logoMenuLeft{
-    width: 60px;
-    height: 100px;
+    width: $hgt*3;
+    height: $hgt*5;
     float: left;
     img{
       position: relative;
@@ -88,14 +91,14 @@ $ft:20px;
   }
   .logoMenuCenter{
     width: 860px;
-    height: 100px;
+    height: $hgt*5;
     float: left;
     ul{
       float: right;
       margin-right: 70px;
       list-style: none;
-      height: 100px;
-      line-height: 100px;
+      height: $hgt*5;
+      line-height: $hgt*5;
       li{
         float: left;
         font-size: 16px;
@@ -108,7 +111,7 @@ $ft:20px;
           text-decoration: none;
           color: rgba(66,66,66,1);
           &:hover{
-            color: rgba(255,103,0,1);
+            color: $mcr;
           }
         }
       }
@@ -116,10 +119,10 @@ $ft:20px;
   }
   .logoMenuRight{
     width:301px;
-    height: 100px;
+    height: $hgt*5;
     float: right;
     label{
-      height: 100px;
+      height: $hgt*5;
       float: right;
     }
     .search{
@@ -142,7 +145,7 @@ $ft:20px;
       color: rgba(97,97,97,1);
       &:hover{
         transition: background-color 0.5s;
-        background-color: rgba(255,103,0,1);
+        background-color: $mcr;
         color: #ffffff;
       }
     }
@@ -152,9 +155,9 @@ $ft:20px;
 
 .MainMenu{
   position: relative;
-  top: 40px;
+  top: $hgt*2;
   width: 100%;
-  height: 460px;
+  height: $hgt*23;
   .MainMenuRight{
     width: 236px;
     height: 100%;
@@ -174,13 +177,13 @@ $ft:20px;
         cursor: default;
           span{
             float: right;
-            margin-right: 20px;
+            margin-right: $hgt;
             i{
               color: rgba(191,198,200,1);
             }
           }
         &:hover{
-          background-color: #ff6700;
+          background-color: $mcr;
         }
         .MenuCenter{
           display: none;
@@ -219,14 +222,14 @@ $ft:20px;
       .arrow-right {
         font-family: "SimSun", "宋体", sans-serif;
         width: 30px;
-        height: 60px;
+        height: $hgt*3;
         background-color: rgba(0, 0, 0, 0.1);
         position: absolute;
         top: 50%;
         margin-top: -30px;
         cursor: pointer;
         text-align: center;
-        line-height: 60px;
+        line-height: $hgt*3;
         color: #fff;
         font-weight: 700;
         font-size: 30px;
@@ -310,7 +313,7 @@ $ft:20px;
   position: absolute;
   background-color: #e2e2e2;
   .phone{
-    width: 1226px;
+    width: $mwd;
     margin: 0 auto;
     background-color: #e2e2e2;
     .phoneTop{
@@ -367,7 +370,7 @@ $ft:20px;
   }
   .Phonetxt1{
     color: #3c3c3c;
-    margin-top: 20px;
+    margin-top: $hgt;
   }
   .Phonetxt2{
     color: #a9a9a9;
@@ -375,7 +378,7 @@ $ft:20px;
   }
   .Repingtxt1{
     color: #3c3c3c;
-    margin-top: 20px;
+    margin-top: $hgt;
     padding:{
       left: 24px;
       right: 24px;
@@ -394,7 +397,7 @@ $ft:20px;
     text-align: left;
   }
   .jiadian{
-    width: 1226px;
+    width: $mwd;
     margin: 0 auto;
     background-color: #e2e2e2;
     .banner2{
@@ -427,8 +430,8 @@ $ft:20px;
               color: #3c3c3c;
               padding-bottom: 5px;
               &:hover{
-                color: #ff6700;
-                border-bottom: 2px solid #ff6700;
+                color: $mcr;
+                border-bottom: 2px solid $mcr;
               }
             }
           }
@@ -499,15 +502,15 @@ $ft:20px;
     }
     p{
       margin-left: -120px;
-      color: #ff6700;
+      color: $mcr;
     }
     div{
       float: right;
       margin-top: -100px;
       img{
         margin:{
-          top: 20px;
-          right: 20px;
+          top: $hgt;
+          right: $hgt;
         }
       }
     }
@@ -525,17 +528,17 @@ $ft:20px;
   }
 
   .tuijian{
-    width: 1226px;
+    width: $mwd;
     margin: 0 auto;
     background-color: #e2e2e2;
     overflow: hidden;
-    padding-bottom: 40px;
+    padding-bottom: $hgt*2;
     .banner5{
       img{
         width: 100%;
         padding: {
-          top: 40px;
-          bottom: 20px;
+          top: $hgt*2;
+          bottom: $hgt;
         }
       }
     }
@@ -556,7 +559,7 @@ $ft:20px;
           background-color: #ffffff;
           float: right;
           text-align: center;
-          padding-top: 40px;
+          padding-top: $hgt*2;
           margin: {
             right: 14px;
             bottom: 14px;
@@ -618,7 +621,7 @@ $ft:20px;
 
 .icon1{
   font-size: 60px;
-  color: #ff6700;
+  color: $mcr;
   margin: {
     top: 30px;
     right: 50px;
@@ -628,7 +631,7 @@ $ft:20px;
     display: none;
     width: 100%;
     height: 75px;
-    background-color: #ff6700;
+    background-color: $mcr;
     position: relative;
     margin-top: -60px;
     p{
@@ -642,7 +645,7 @@ $ft:20px;
   .baoxiu{
     border-bottom: 1px solid #e0e0e0;
     margin: 0 auto;
-    width: 1226px;
+    width: $mwd;
     height: 80px;
     overflow: hidden;
     span{
@@ -656,7 +659,7 @@ $ft:20px;
         text-decoration: none;
         color: #5e5e5e;
         &:hover{
-          color: #ff6700;
+          color: $mcr;
         }
       }
     }
@@ -674,7 +677,7 @@ $ft:20px;
   }
   .bottomMenu{
     margin: 0 auto;
-    width: 1226px;
+    width: $mwd;
     height: 200px;
     .btm1{
       float: left;
@@ -695,7 +698,7 @@ $ft:20px;
               color: #5e5e5e;
               text-decoration: none;
               &:hover{
-                color: #ff6700;
+                color: $mcr;
               }
             }
           }
@@ -712,7 +715,7 @@ $ft:20px;
         text-align: center;
         .btmTxt1{
           font-size: 23px;
-          color: #ff6700;
+          color: $mcr;
         }
         .btmTxt2{
           color: #5e5e5e;
@@ -720,16 +723,16 @@ $ft:20px;
           font-size: 12px;
         }
         a{
-          color: #ff6700;
+          color: $mcr;
           text-decoration: none;
           .btmButton{
-            border: 1px solid #ff6700;
+            border: 1px solid $mcr;
             width: 120px;
             height: 30px;
             line-height: 30px ;
             margin: 0 auto;
             &:hover{
-              background-color: #ff6700;
+              background-color: $mcr;
               color: #ffffff;
             }
           }
@@ -740,10 +743,10 @@ $ft:20px;
     }
   }
 }
-.bottomLogo{ 
+.bottomLogo{
   margin: 0 auto;
-  width: 1226px;
-  height: 80px;
+  width: $mwd;
+  height: $hgt*4;
   div{
     float: left;
     margin-top: 10px;
