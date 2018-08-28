@@ -206,11 +206,12 @@ $mcr:#ff6700;
             float: left;
             margin: {
               top: $hgt;
-              left: $hgt;
+              left: $hgt*2;
             }
-            width: 280px;
+            width: 260px;
             img{
               width: 50px;
+              margin-right: 18px;
             }
           }
         }
