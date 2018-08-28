@@ -196,6 +196,23 @@ $mcr:#ff6700;
           background-color: #ffffff;
           box-shadow: 5px 5px 10px #a9a9a9;
           color: #000000;
+          a{
+            color: #000000;
+            &:hover{
+              color: #ff6700;
+            }
+          }
+          span{
+            float: left;
+            margin: {
+              top: $hgt;
+              left: $hgt;
+            }
+            width: 280px;
+            img{
+              width: 50px;
+            }
+          }
         }
       }
     }

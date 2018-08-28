@@ -159,6 +159,17 @@
           background-color: #ffffff;
           box-shadow: 5px 5px 10px #a9a9a9;
           color: #000000; }
+          .MainMenu .MainMenuRight ul li .MenuCenter a {
+            color: #000000; }
+            .MainMenu .MainMenuRight ul li .MenuCenter a:hover {
+              color: #ff6700; }
+          .MainMenu .MainMenuRight ul li .MenuCenter span {
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 280px; }
+            .MainMenu .MainMenuRight ul li .MenuCenter span img {
+              width: 50px; }
   .MainMenu .slider {
     overflow: hidden;
     float: left;
